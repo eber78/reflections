@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
   
   When you initialize a repository git creates all the nessesary files to keep track of all the changes 
   in te working directory. If you don´t initialize a repository you can´t star working wiht git
@@ -8,6 +8,11 @@ it offers?
     
   The staging area contains all the changes that will be committed. You can divide one big change into
   multiple stages. It helps you choose which changes you want to commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+  
+  First you have to stage the files that correspond to the logical change. When you are shure you staged all the files then make  a commit
+  After that you can start the same procedure for another logical change
 
   
   
