@@ -23,3 +23,8 @@ How do the diagrams help you visualize the branch structure?
 
   You can easilly see all the branches and in wich point each branch was created.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  You obtain a commit updated with all the changes from the branches you want to merge plus the changes in the 
+  checked branch. This commit is the new head of your current branch
+  
