@@ -28,3 +28,13 @@ What is the result of merging two branches together? Why do we represent it in t
   You obtain a commit updated with all the changes from the branches you want to merge plus the changes in the 
   checked branch. This commit is the new head of your current branch
   
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  Pros:
+    You don`t have to check all the changes to be merged.
+    
+  Cons:
+    When two people make changes on teh same file there could be potential conflicts
+
+
+  
